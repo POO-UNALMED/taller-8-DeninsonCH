@@ -43,12 +43,7 @@ public class Jugador extends Futbolista{
 	public void setDorsal(byte dorsal) {
 		this.dorsal = dorsal;
 	}
-	@Override
-	public boolean jugarConLasManos() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
+	
 	
 
 }
