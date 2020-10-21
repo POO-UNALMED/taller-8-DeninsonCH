@@ -12,14 +12,14 @@ public class Jugador extends Futbolista{
 	
 	public Jugador(String nombre, int edad, String posicion, short goles, byte dorsal) {
 		super(nombre,edad,posicion);
-		golesMarcados=goles;
+		this.golesMarcados=goles;
 		this.dorsal=dorsal;
 		
 	}
 	public Jugador() {
 		super();
-		golesMarcados=27;
-		dorsal=7;
+		this.golesMarcados=289;
+		this.dorsal=7;
 	}
 	public int compareTo(Object j) {
 		Jugador temp  = (Jugador) j;
